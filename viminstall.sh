@@ -1,12 +1,8 @@
-# Install vim
-sudo pacman -S vim
+# copy the configuration
+mkdir -p ~/.vim/plugged
+mkdir ~/.vim/undodir
+cp -r autoload .~/.vim
 
-# Install vim-plug
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-
-# install the plugins
 cp .vimrc ~
-cp -r .vim ~
 
 
