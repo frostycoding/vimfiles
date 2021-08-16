@@ -8,12 +8,15 @@
 -     sudo pacman -S vim
 
 - To install vim in ubuntu-based distros
--     sudo apt install vim
+-     sudo apt install vim     
 
 ### Using my config
 
 - To install and use my config, type this in the terminal
 -     chmod +x viminstall.sh; ./viminstall.sh
+
+- After you do this, you need to apply the plugins in vim, to do that run vim and type this
+-     :PlugInstall
 
 That's it, Now you succesfully have my vim config.
 
