@@ -9,6 +9,12 @@
 -----
 * To install git in debian-based distros, type
 *     sudo apt install git
+-----
+* After you install git, to clone this repo, type
+*     git clone https://github.com/frostycoding/vimfiles.git
+-----
+* After you cloned it, go into that directory
+*     cd vimfiles
 
 ### Installation guide
 
