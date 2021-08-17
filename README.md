@@ -4,7 +4,11 @@
 
 ### Cloning this repository
 
-* To clone this repo, make sure you have `git` installed
+* To clone this repo, make sure you have `git` installed, if you don't, to install it in arch-based distros, type
+*     sudo pacman -S git
+-----
+* To install git in debian-based distros, type
+*     sudo apt install git
 
 ### Installation guide
 
