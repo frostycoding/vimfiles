@@ -25,6 +25,3 @@ call plug#end()
 
 set background=dark
 colorscheme gruvbox
-
-" All the languages Kite supports
-let g:kite_supported_languages = ['*']
